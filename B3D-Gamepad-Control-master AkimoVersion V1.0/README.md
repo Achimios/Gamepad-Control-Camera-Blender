@@ -10,8 +10,8 @@ Control | Description
 ------------ | -------------
 Left X | Move left right
 Left Y | Move forward back
-Left Trigger | Move Up
-Right Trigger | Move Down
+Left Trigger | Move Down
+Right Trigger | Move Up
 Right X | Yaw
 Right Y | Pitch
 RB | Roll Right(currently not supported in Euler System)
