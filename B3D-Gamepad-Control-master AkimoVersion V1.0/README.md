@@ -6,6 +6,8 @@ Blender 3D Add-on to control camera with a gamepad
 * Press F3 (Search Menu) and look after "View3D:   Gamepad Control"
 * Use your gamepad trigger and joystick to move your camera smoothly.
 
+
+# **Key Binding**
 Control | Description
 ------------ | -------------
 Left X | Move left right
@@ -37,6 +39,9 @@ Heading ---- move forward to where you are heading, like a FPV drone
 # **Drifting Problem**
 If your gamepad is old with drifting, change these 4 lines '''if abs(gpd_value) < 100 :''' to higher value like 300, 1000...  
 Same solution for Left Right Trigger.  
+
+# **Blender Version**
+If your blender version doesn't support it, change line 13 "blender": (2, 80, 0), to your own blender version
 
 QUATERNION Mode will be developed soon with physics for types of Aircraft,  
 FPV drone, Helicopter, Fixed Wing, Space ship, Sci fi Vector propulsion ship etc.  
