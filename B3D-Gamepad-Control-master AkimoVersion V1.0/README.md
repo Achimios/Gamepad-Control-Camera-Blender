@@ -30,26 +30,16 @@ Cross Right | Rotate speed +20%
 Key Y | Switch Mode
 
 There are 3 Modes:
-
 Horizontal ---- move horizontally and vertically, like a infantry, or a DJI drone
-
 Heading with vertical Up Down ---- move forward to where you are heading, but still vertical Up Down
-
 Heading ---- move forward to where you are heading, like a FPV drone
 
-
 QUATERNION Mode will be developed soon with physics for types of Aircraft,
-
 FPV drone, Helicopter, Fixed Wing, Space ship, Sci fi Vector propulsion ship etc.
-
 Means you can fly aircraft with physics in Blender! ;->
-
 nice way to animate vehicles.
 
-
 Thanks for the original work from Fabuloup
-
 https://github.com/Fabuloup/B3D-Gamepad-Control
-
 https://www.reddit.com/r/blender/comments/ifuy7k/blender_addon_gamepad_camera_control/
 
