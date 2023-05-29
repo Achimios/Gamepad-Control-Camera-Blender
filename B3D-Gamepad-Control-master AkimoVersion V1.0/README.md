@@ -26,13 +26,17 @@ Cross Down| Speed /1.2
 Cross Left  | Rotate speed -20%
 Cross Right | Rotate speed +20%
 
-# **important!**
+# **Flying Mode**
 Key Y | Switch Mode  
 
 There are 3 Modes:  
 Horizontal ---- move horizontally and vertically, like a infantry, or a DJI drone  
 Heading with vertical Up Down ---- move forward to where you are heading, but still vertical Up Down  
 Heading ---- move forward to where you are heading, like a FPV drone  
+
+# **Drifting Problem**
+If your gamepad is old with drifting, change these 4 lines '''if abs(gpd_value) < 100 :''' to higher value like 300, 1000...  
+Same solution for Left Right Trigger.  
 
 QUATERNION Mode will be developed soon with physics for types of Aircraft,  
 FPV drone, Helicopter, Fixed Wing, Space ship, Sci fi Vector propulsion ship etc.  
