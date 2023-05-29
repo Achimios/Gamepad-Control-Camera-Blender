@@ -1,7 +1,8 @@
 # B3D-Gamepad-Control-Akimo's Version
 Blender 3D Add-on to control camera with a gamepad
 
-* Activate it
+* copy the folder to this position C:\Users\Your Name\AppData\Roaming\Blender Foundation\Blender\Your Version\scripts\addons
+* Activate it in Edit - Preference
 * In the 3d Viewport press Numpad 0 (Camera View)
 * Press F3 (Search Menu) and look after "View3D:   Gamepad Control"
 * Use your gamepad trigger and joystick to move your camera smoothly.
@@ -38,7 +39,7 @@ Heading ---- move forward to where you are heading, like a FPV drone
 
 # **Drifting Problem**
 If your gamepad is old with drifting, change these 4 lines '''if abs(gpd_value) < 100 :''' to higher value like 300, 1000...  
-Same solution for Left Right Trigger.  
+Same solution for Left Right Trigger. Simply add if '''abs(gpd_value) < 10: gpd_value = 0'''
 
 # **Blender Version**
 If your blender version doesn't support it, change line 13 "blender": (2, 80, 0), to your own blender version
